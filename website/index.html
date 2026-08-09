@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Widget | The Ultimate Broadband Monitor</title>
+    <meta name="description"
+        content="A compact, sleek, privacy-focused Windows desktop widget to monitor your Broadband usage in real-time. 100% free and Open Source.">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">Data Widget</div>
+        <a href="https://github.com/Tharindu-Nimsara/Data-balance-checker" target="_blank" class="nav-link">⭐
+            Star on GitHub</a>
+    </nav>
+
+    <main class="hero">
+        <div class="hero-content">
+            <h1 class="title">Monitor Your Data.<br><span class="highlight">Without the Clutter.</span></h1>
+            <p class="subtitle">A beautiful, privacy-focused Windows desktop widget that sits quietly on your screen and
+                tracks your broadband usage in real-time. No browser tabs. No distractions.</p>
+
+            <div class="cta-group">
+                <a href="https://github.com/Tharindu-Nimsara/Data-balance-checker/releases/download/v1.0.0/SLT.Data.Widget.exe"
+                    class="btn btn-primary">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    Download for Windows
+                </a>
+                <a href="https://github.com/Tharindu-Nimsara/Data-balance-checker" class="btn btn-secondary"
+                    target="_blank">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                        </path>
+                    </svg>
+                    View Source Code
+                </a>
+            </div>
+            <p class="legal-mini">Requires Windows 10/11 • 100% Free & Open Source</p>
+        </div>
+
+        <div class="hero-image">
+            <div class="glass-mockup">
+                <img src="images/1.png" alt="Data Widget UI" id="widget-screenshot">
+            </div>
+        </div>
+    </main>
+
+    <section class="screenshots">
+        <h2 class="section-title">See It In Action</h2>
+        <div class="carousel-container">
+            <div class="carousel-track">
+                <img src="images/2.png" alt="Widget Screenshot" class="carousel-item">
+                <img src="images/3.png" alt="Widget Screenshot" class="carousel-item">
+                <img src="images/4.png" alt="Widget Screenshot" class="carousel-item">
+                <img src="images/5.png" alt="Widget Screenshot" class="carousel-item">
+                <img src="images/6.png" alt="Widget Screenshot" class="carousel-item">
+                <!-- Duplicate for seamless scrolling -->
+                <img src="images/2.png" alt="Widget Screenshot" class="carousel-item">
+                <img src="images/3.png" alt="Widget Screenshot" class="carousel-item">
+                <img src="images/4.png" alt="Widget Screenshot" class="carousel-item">
+                <img src="images/5.png" alt="Widget Screenshot" class="carousel-item">
+                <img src="images/6.png" alt="Widget Screenshot" class="carousel-item">
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2 class="section-title">Why use the Widget?</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="card-icon">📊</div>
+                <h3>Precision Tracking</h3>
+                <ul class="feature-list">
+                    <li><strong>⏱️ Real-Time Usage Monitoring:</strong> Check your broadband usage instantly right on
+                        your desktop, completely eliminating the need to log into a clunky web browser.</li>
+                    <li><strong>🎛️ Custom Data Filtering:</strong> Don't care about "Free Data" or "Bonus Data"? The
+                        Settings UI lets you dynamically toggle exactly which of the 5 standard data categories you want
+                        visible.</li>
+                    <li><strong>🔄 Flexible Sync Intervals:</strong> Choose how aggressively the widget pulls updates
+                        (from every 15 minutes to every 3 hours), or switch to Manual Mode to save bandwidth.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🛡️</div>
+                <h3>Privacy & Security First</h3>
+                <ul class="feature-list">
+                    <li><strong>🕶️ "Hide Details" Privacy Mode:</strong> Worried about shoulder surfers? A single click
+                        inside the Quick Menu instantly collapses and hides your exact data numbers, package names, and
+                        texts into a purely visual progress bar.</li>
+                    <li><strong>🔐 Aggressive Data Security:</strong> Your password NEVER touches a vulnerable text
+                        file. It is encrypted and locked securely inside the native Windows Credential Manager.</li>
+                    <li><strong>🚫 Zero Telemetry:</strong> 100% Free and Open Source. The widget does absolutely no
+                        tracking, has no analytics, and does not collect a single byte of your data.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🔔</div>
+                <h3>Smart Operating System Hooks</h3>
+                <ul class="feature-list">
+                    <li><strong>💬 Windows Action Center Toasts:</strong> Set a custom "Low Data" threshold (e.g. 5.0
+                        GB), and the widget will fire a native Windows push notification to warn you before you run out.
+                    </li>
+                    <li><strong>🧠 Cycle-Aware Alerts:</strong> The notification engine is smart enough to detect when a
+                        new billing month starts or a new Add-On is purchased, automatically resetting your warning
+                        threshold for you.</li>
+                    <li><strong>🚀 Silent Windows Autostart:</strong> Flip a 1-click setting to hook the widget into
+                        your Windows Registry, allowing it to seamlessly and silently boot in the background every time
+                        you turn on your PC.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🎨</div>
+                <h3>Premium UI/UX</h3>
+                <ul class="feature-list">
+                    <li><strong>✨ Zero-Clutter Floating Interface:</strong> An incredibly minimalist widget footprint
+                        that remembers its exact X/Y screen coordinates across computer restarts.</li>
+                    <li><strong>⚡ Dynamic Quick Menu:</strong> Right-click the widget to instantly access privacy
+                        features, refresh controls, and settings without opening large software windows.</li>
+                    <li><strong>🤖 Automated API Handshake:</strong> Users don't need to be developers to use this. The
+                        widget secretly scrapes the live provider portal behind the scenes to automatically unearth the
+                        required authentication keys on the fly!</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Built with ❤️. Not officially affiliated with any specific telecom provider.</p>
+        <p><a href="https://github.com/Tharindu-Nimsara/Data-balance-checker" target="_blank">Contribute on
+                GitHub</a></p>
+    </footer>
+</body>
+
+</html>
